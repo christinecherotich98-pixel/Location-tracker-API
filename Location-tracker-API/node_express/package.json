@@ -1,0 +1,1 @@
+{ "name":"tracker","dependencies":{"express":"^4","better-sqlite3":"^9"} }

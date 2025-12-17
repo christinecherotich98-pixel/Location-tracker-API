@@ -1,0 +1,51 @@
+location-tracker-multistack/
+├── README.md
+├── ai-prompt-journal.md
+├── toolkit.md
+├── openapi.yaml
+├── docker-compose.yml
+│
+├── fastapi/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── main.py
+│   ├── routes.py
+│   ├── models.py
+│   ├── state.py
+│   └── tests/
+│       └── test_locations.py
+│
+├── flask/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── app.py
+│   ├── routes.py
+│   ├── models.py
+│   ├── state.py
+│   └── tests/
+│       └── test_locations.py
+│
+├── node_express/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── index.js
+│   ├── routes.js
+│   ├── models.js
+│   ├── state.js
+│   └── tests/
+│       └── locations.test.js
+│
+├── rust_actix/
+│   ├── Dockerfile
+│   ├── Cargo.toml
+│   └── src/
+│       ├── main.rs
+│       ├── routes.rs
+│       ├── models.rs
+│       ├── state.rs
+│       └── tests.rs
+│
+└── docs/
+    ├── toolkit.md
+    ├── api-design.md
+    └── testing-strategy.md

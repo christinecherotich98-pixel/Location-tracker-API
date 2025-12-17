@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  fastapi:
+    build: ./fastapi
+    ports: ["8000:8000"]
+  flask:
+    build: ./flask
+    ports: ["5000:5000"]
+  node:
+    build: ./node_express
+    ports: ["3000:3000"]
+  rust:
+    build: ./rust_actix
+    ports: ["8080:8080"]

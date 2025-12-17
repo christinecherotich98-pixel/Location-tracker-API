@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: Location Tracker API
+  version: 1.0.0
+paths:
+  /locations:
+    post: {summary: Add location}
+    get: {summary: Get latest locations}
+  /locations/{user_id}:
+    get: {summary: Get latest location for user}
+  /locations/{user_id}/history:
+    get: {summary: Get location history}
